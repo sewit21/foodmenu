@@ -1,0 +1,58 @@
+body {
+    background-color: darkslategray;
+    display: block;
+    text-align: center;
+    border: 2px solid black;
+
+
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    padding: 1rem;
+    
+}
+
+p {
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.search-params {
+    margin: 1.5rem;
+    align-items: center;
+
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.search-params {
+    margin: 1rem;
+    font-weight: bold;
+    font-size: small;
+
+}
+
+.recipe {
+    margin: 1rem;
+    width: 70px;
+}
+
+.foodierecipe{
+    margin: 1rem;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
